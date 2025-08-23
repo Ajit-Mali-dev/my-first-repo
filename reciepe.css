@@ -7,6 +7,7 @@ body {
 
 .header{
     background-color: white;
+    height: 100%;
     width: 50%;
     position: relative;
     justify-self: center;
@@ -18,24 +19,7 @@ body {
     font-weight: 500;
 }
 
-@media (max-width: 320px){
-    body{
-        font-size: 10px;
-    }
 
-    .header{
-        margin-top: 50px;
-        width: 50%;
-        padding: 30px;
-        border-radius: 10px;
-    }
-    
-    .image-omelette{
-        width: 20px;
-        height: 50px;
-    }
-
-}
 
 
 .image-omelette{
@@ -184,3 +168,189 @@ body {
     color: hsl(14, 45%, 36%);
     font-weight: 700;
 }
+
+@media  (max-width: 768px) {
+    body{
+        font-size: 18px;
+    }
+    
+    .header{
+        width: 50%;
+        padding: 25px;
+        
+    }
+
+    .image-omelette{
+        width: 100%;
+        height: 190px;
+        margin-bottom: 15px;
+    }
+
+    .heading{
+        font-size: 25px;
+        width: 100%;
+        margin-top: 0;
+    }
+
+.preparation{
+    position: relative;
+    left: 20px;
+    color: hsl(332, 51%, 32%);
+    margin-bottom: 0px;
+    font-size: 25px;
+}
+
+.total,
+.preparation-timing,
+.cooking{
+    font-weight: 500;
+    color: rgb(49, 47, 47);
+    line-height: 30px;
+}
+
+.preparation-time ul{
+   color:  rgb(99, 95, 95);
+   padding: 0px;
+   padding-left: 30px;
+  margin-top: 0;
+}
+
+.ingredient,
+.instruction,
+.nutrition{
+        font-size: 25px;
+}
+
+.value-1{
+    padding-left: 160px;
+    color: hsl(14, 45%, 36%);
+    font-weight: 700;
+}
+
+.value-2{
+    padding-left: 180px;
+    color: hsl(14, 45%, 36%);
+    font-weight: 700;
+}
+
+.value-3{
+    padding-left: 170px;
+    color: hsl(14, 45%, 36%);
+    font-weight: 700;
+}
+
+.value-4{
+    padding-left: 200px;
+    color: hsl(14, 45%, 36%);
+    font-weight: 700;
+}
+}
+
+
+@media  (min-width: 320px) and (max-width: 425px) {
+    body{
+        font-size: 12px;
+    }
+    
+    .header{
+        width: 50%;
+        padding: 12px;
+        
+    }
+
+    .image-omelette{
+        width: 100%;
+        height: 90px;
+        margin-bottom: 12px;
+    }
+
+    .heading{
+        font-size: 15px;
+        width: 100%;
+        margin-top: 0;
+    }
+
+    .preparation{
+        position: relative;
+        left: 15px;
+        color: hsl(332, 51%, 32%);
+        margin-bottom: 0px;
+        font-size: 13px;
+    }
+
+.total,
+.preparation-timing,
+.cooking{
+    font-weight: 500;
+    color: rgb(49, 47, 47);
+    line-height: 20px;
+    padding: 0;
+}
+
+.preparation-ul{
+   color:  rgb(99, 95, 95);
+   padding-left: 28px;
+}
+
+.ingredient,
+.instruction,
+.nutrition{
+        font-size: 13px;
+}
+
+.component{
+    padding-left: 20px;
+    padding-right: 0;
+}
+
+.component span{
+   padding-left: 0;
+    color:  rgb(99, 95, 95);
+     line-height: 25px;
+}
+
+.instruction-menu {
+    padding: 0;
+    margin: 0;
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+.instruction-menu p{
+    padding-left: 0;
+}
+
+.value-1{
+    padding-left: 60px;
+    color: hsl(14, 45%, 36%);
+    font-weight: 700;
+}
+
+.value-2{
+    padding-left: 80px;
+    color: hsl(14, 45%, 36%);
+    font-weight: 700;
+}
+
+.value-3{
+    padding-left: 70px;
+    color: hsl(14, 45%, 36%);
+    font-weight: 700;
+}
+
+.value-4{
+    padding-left: 90px;
+    color: hsl(14, 45%, 36%);
+    font-weight: 700;
+}
+
+.ingrdient-values{
+    color:  rgb(99, 95, 95);
+    margin: 0;
+    margin-bottom: 10px;
+    padding-left: 0px;
+}
+
+}
+
+
